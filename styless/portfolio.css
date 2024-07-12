@@ -1,0 +1,59 @@
+ 
+
+ 
+ .open-sans-normal {
+   font-family: "Open Sans", sans-serif;
+   font-optical-sizing: auto;
+   
+   font-style: normal;
+   font-variation-settings:
+     "wdth" 100;
+ }
+
+ /*nav styless*/
+ 
+ nav {
+    display: flex;
+    background-color: beige;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+
+ }
+ .taxt-primary{
+    color: rgb(188, 105, 105);
+ }
+nav ul li{
+    list-style: none;
+    text-decoration-line: none;
+    font-size: 20px;
+    margin: 51px;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    
+}
+.portfolio-picture{
+    width: 540px;
+}
+.btn-primary{
+    background-color: red ;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin:o 35px 0 230px ;
+}
+
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:top left, bottom right ;
+}
